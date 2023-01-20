@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Web Design" />
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap" />
+  <meta name="author" content="A. Hasnat" />
+  <title>Biker Zone</title>
+  <!-- Favicon Link -->
+  <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  <!-- Font-Awesome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container">
+        <a class="navbar-brand fs-2 fw-bold text-secondary" href="index.html">
+          Go<samp class="text-primary">Ride</samp>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Banner Text -->
+    <section class="d-flex align-items-center" id="banner">
+      <div class="container text-light">
+        <h1 class="display-2 fw-bold">Keep Your Ride Safe<br>At Every Time</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, quia modi.<br>Magni amet laborum
+          consequatur
+          maxime quis debitis numquam asperiores,<br> necessitatibus dicta ipsam temporibus cumque dolore vel cupiditate
+          velit sequi?
+        </p>
+        <button class="btn btn-primary py-2 px-4 fs-4">Purchase</button>
+      </div>
+    </section>
+    <!-- Banner Text -->
+  </header>
+  <!-- Header End -->
+
+  <!-- Fetured Bikes Section -->
+  <section class="container my-5">
+    <h1 class="text-center display-5 fw-bold">Fetured Bikes In <span class="text-primary">This Year</span></h1>
+    <div class="">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100 my-4 p-4">
+            <img src="images/bike-5.png" class="card-img-top" alt="images/bike-1.png">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 my-4 p-4">
+            <img src="images/bike-6.png" class="card-img-top" alt="images/bike-1.png">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 my-4 p-4">
+            <img src="images/bike-7.png" class="card-img-top" alt="images/bike-1.png">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 my-4 p-4">
+            <img src="images/bike-8.png" class="card-img-top" alt="images/bike-1.png">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fetured Bikes Section -->
+
+  <!-- Carousel Section -->
+  <section class="container my-5 rounded-4" id="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex align-items-center flex-column-reverse flex-lg-row p-5">
+            <div class="d-flex align-items-center">
+              <div class="pe-5">
+                <h2>Ride-on With Smile</h2>
+                <p>
+                  Amet minim mollit non deserunt ullamco<br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <button class="btn btn-primary">Purchase</button>
+              </div>
+            </div>
+            <img src="images/bike-9.png" class="w-50 img-fluid" alt="bike">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center flex-column-reverse flex-lg-row p-5">
+            <div class="d-flex flex-column align-items-center">
+              <div class="pe-5">
+                <h2>Ride-on With Smile</h2>
+                <p>
+                  Amet minim mollit non deserunt ullamco<br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <button class="btn btn-primary">Purchase</button>
+              </div>
+            </div>
+            <img src="images/bike-10.png" class="w-50 img-fluid" alt="bike">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center flex-column-reverse flex-lg-row p-5">
+            <div class="d-flex flex-column align-items-center">
+              <div class="pe-5">
+                <h2>Ride-on With Smile</h2>
+                <p>
+                  Amet minim mollit non deserunt ullamco<br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <button class="btn btn-primary">Purchase</button>
+              </div>
+            </div>
+            <img src="images/bike-11.png" class="w-50 img-fluid" alt="bike">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Carousel Section -->
+
+  <!-- Latest News Section -->
+  <section class="container my-5" id="news">
+    <h1 class="text-center display-5 fw-bold">Latest <span class="text-primary">News</span></h1>
+    <div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bike-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <button class="btn btn-outline-secondary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bike-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Motorcycles</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <button class="btn btn-outline-secondary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bike-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">2021 Diavel V4</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <button class="btn btn-outline-secondary">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Latest News Section -->
+
+  <!-- Happy Clints Section -->
+  <section class="container my-5" id="clints">
+    <h1 class="text-center display-5 fw-bold">Happy <span class="text-primary">Clints</span></h1>
+    <div class="my-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center p-5 p-md-1 p-lg-5 ">
+            <img src="images/user-1.png" class="card-img-top w-50 mx-auto img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+                <p>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </p>
+                <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center p-5 p-md-1 p-lg-5 ">
+            <img src="images/user-1.png" class="card-img-top w-50 mx-auto img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+                <p>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center p-5 p-md-1 p-lg-5 ">
+            <img src="images/user-1.png" class="card-img-top w-50 mx-auto img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+                <p>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </p>
+                <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Happy Clints Section -->
+
+  <!-- FAQ Section -->
+
+  <!-- FAQ Section -->
+
+  <!-- Latest compiled Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="js/bootstrap.js"></script>
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
